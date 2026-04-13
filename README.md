@@ -10,9 +10,9 @@ Generación de Datos con Python
 Utilicé un script de Python con las librerías Pandas y Faker para crear:
 - Volumen: 3,603 transacciones distribuidas en 6 años.
 - Integridad: Modelo relacional con 3 tablas vinculadas por llaves primarias y foráneas.
--- --------------------------- --
 
-Lógica de Negocio:
+
+### Lógica de Negocio:
 - Estacionalidad: Programé picos de ventas en Noviembre (Black Friday) y Diciembre (Navidad).
 - Geografía: Localización enfocada en 7 países de LATAM.
 - Recurrencia: Lógica de asignación aleatoria ponderada para simular clientes leales.

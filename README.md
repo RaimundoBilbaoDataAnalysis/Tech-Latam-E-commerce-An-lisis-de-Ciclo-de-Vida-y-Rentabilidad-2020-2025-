@@ -1,4 +1,4 @@
-# Tech-Latam-Ecommerce-Analisis-Ciclo-de-Vida-y-Rentabilidad-2020-2025
+[# Tech-Latam-Ecommerce-Analisis-Ciclo-de-Vida-y-Rentabilidad-2020-2025
 Este proyecto simula un ecosistema de datos para una empresa de e-commerce tecnológica con operaciones en Latinoamérica. El objetivo es demostrar habilidades de Ingeniería de Datos (generación sintética y carga masiva), Arquitectura de Bases de Datos (diseño relacional) y Análisis de Negocio (SQL). 
 
 - Base de datos ficticia creada en Python (con ayuda de IA-Gemini).
@@ -26,3 +26,4 @@ Utilicé un script de Python con las librerías Pandas y Faker para crear:
 5. Análisis de Descuentos: ¿Cómo impactan los descuentos en el volumen de ventas? ¿Estamos sacrificando demasiado margen por vender más unidades?
 6. Métodos de Pago: ¿Existe alguna preferencia regional por ciertos métodos de pago? (Ej: ¿Se usa más tarjeta en Chile que en México?).
 7. Eficiencia de Registro: ¿Cuál es el tiempo promedio que transcurre desde que un cliente se registra en la plataforma hasta que realiza su primera transacción?
+](https://img.shields.io/badge/SQL-MySQL-blue)

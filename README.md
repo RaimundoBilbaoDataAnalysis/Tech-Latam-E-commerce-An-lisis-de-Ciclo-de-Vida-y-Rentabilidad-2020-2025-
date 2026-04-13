@@ -17,6 +17,7 @@ Utilicé un script de Python con las librerías Pandas y Faker para crear:
 - Geografía: Localización enfocada en 7 países de LATAM.
 - Recurrencia: Lógica de asignación aleatoria ponderada para simular clientes leales.
 
+
 ## Lista de Preguntas del Stakeholder (Roadmap del Proyecto)
 
 - Crecimiento Histórico: ¿Cuál ha sido la evolución de las ventas mensuales desde 2020? ¿Existen patrones de estacionalidad claros?
@@ -26,5 +27,3 @@ Utilicé un script de Python con las librerías Pandas y Faker para crear:
 - Análisis de Descuentos: ¿Cómo impactan los descuentos en el volumen de ventas? ¿Estamos sacrificando demasiado margen por vender más unidades?
 - Métodos de Pago: ¿Existe alguna preferencia regional por ciertos métodos de pago? (Ej: ¿Se usa más tarjeta en Chile que en México?).
 - Eficiencia de Registro: ¿Cuál es el tiempo promedio que transcurre desde que un cliente se registra en la plataforma hasta que realiza su primera transacción?
-
--- 

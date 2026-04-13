@@ -17,8 +17,6 @@ Utilicé un script de Python con las librerías Pandas y Faker para crear:
 - Geografía: Localización enfocada en 7 países de LATAM.
 - Recurrencia: Lógica de asignación aleatoria ponderada para simular clientes leales.
 
---
-
 ## Lista de Preguntas del Stakeholder (Roadmap del Proyecto)
 
 - Crecimiento Histórico: ¿Cuál ha sido la evolución de las ventas mensuales desde 2020? ¿Existen patrones de estacionalidad claros?

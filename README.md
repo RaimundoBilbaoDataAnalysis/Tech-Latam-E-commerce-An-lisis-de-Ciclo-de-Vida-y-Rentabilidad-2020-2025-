@@ -19,11 +19,10 @@ Utilicé un script de Python con las librerías Pandas y Faker para crear:
 
 
 ## Lista de Preguntas del Stakeholder (Roadmap del Proyecto)
-
-- Crecimiento Histórico: ¿Cuál ha sido la evolución de las ventas mensuales desde 2020? ¿Existen patrones de estacionalidad claros?
-- Rendimiento Geográfico: ¿Cuál es el país de Latinoamérica que más ingresos aporta y cuál tiene el ticket promedio (AOV) más alto?
-- Rentabilidad por Producto: ¿Qué categorías de productos generan el mayor margen de beneficio neto y cuáles tienen costos demasiado elevados en relación con su precio de venta?
-- Fidelización y Recurrencia: ¿Qué porcentaje de nuestros clientes ha realizado más de una compra? Queremos identificar a nuestros "Heavy Users".
-- Análisis de Descuentos: ¿Cómo impactan los descuentos en el volumen de ventas? ¿Estamos sacrificando demasiado margen por vender más unidades?
-- Métodos de Pago: ¿Existe alguna preferencia regional por ciertos métodos de pago? (Ej: ¿Se usa más tarjeta en Chile que en México?).
-- Eficiencia de Registro: ¿Cuál es el tiempo promedio que transcurre desde que un cliente se registra en la plataforma hasta que realiza su primera transacción?
+1. Crecimiento Histórico: ¿Cuál ha sido la evolución de las ventas mensuales desde 2020? ¿Existen patrones de estacionalidad claros?
+2. Rendimiento Geográfico: ¿Cuál es el país de Latinoamérica que más ingresos aporta y cuál tiene el ticket promedio (AOV) más alto?
+3. Rentabilidad por Producto: ¿Qué categorías de productos generan el mayor margen de beneficio neto y cuáles tienen costos demasiado elevados en relación con su precio de venta?
+4. Fidelización y Recurrencia: ¿Qué porcentaje de nuestros clientes ha realizado más de una compra? Queremos identificar a nuestros "Heavy Users".
+5. Análisis de Descuentos: ¿Cómo impactan los descuentos en el volumen de ventas? ¿Estamos sacrificando demasiado margen por vender más unidades?
+6. Métodos de Pago: ¿Existe alguna preferencia regional por ciertos métodos de pago? (Ej: ¿Se usa más tarjeta en Chile que en México?).
+7. Eficiencia de Registro: ¿Cuál es el tiempo promedio que transcurre desde que un cliente se registra en la plataforma hasta que realiza su primera transacción?

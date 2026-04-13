@@ -1,29 +1,46 @@
-[# Tech-Latam-Ecommerce-Analisis-Ciclo-de-Vida-y-Rentabilidad-2020-2025
-Este proyecto simula un ecosistema de datos para una empresa de e-commerce tecnológica con operaciones en Latinoamérica. El objetivo es demostrar habilidades de Ingeniería de Datos (generación sintética y carga masiva), Arquitectura de Bases de Datos (diseño relacional) y Análisis de Negocio (SQL). 
+# 🚀 Tech-Latam E-commerce: Análisis de Ciclo de Vida y Rentabilidad (2020-2025)
 
-- Base de datos ficticia creada en Python (con ayuda de IA-Gemini).
+![SQL](https://img.shields.io/badge/SQL-MySQL-blue)
+![Python](https://img.shields.io/badge/Python-3.x-green)
+![PowerBI](https://img.shields.io/badge/Visualización-Power_BI-yellow)
+![Status](https://img.shields.io/badge/Status-In--Progress-orange)
 
-## Arquitectura de datos:
-Para este proyecto, decidí no utilizar un dataset estático de internet, sino construir uno propio para tener control total sobre la lógica de negocio.
+## 📌 Descripción del Proyecto
+Este proyecto simula un ecosistema de datos completo para una empresa tecnológica de e-commerce en Latinoamérica. A diferencia de los proyectos que usan datasets estáticos, aquí se construyó una infraestructura desde cero: desde la **generación sintética de datos** hasta la **resolución de KPIs de negocio mediante SQL avanzado**.
 
-Generación de Datos con Python
-Utilicé un script de Python con las librerías Pandas y Faker para crear:
-- Volumen: 3,603 transacciones distribuidas en 6 años.
-- Integridad: Modelo relacional con 3 tablas vinculadas por llaves primarias y foráneas.
+## 🏗️ Arquitectura y Stack Técnico
+Para demostrar un control total sobre la lógica de negocio, el flujo de trabajo se dividió en:
 
+1.  **Generación de Datos (Python):** Uso de `Pandas` y `Faker` para crear un modelo relacional de **3,603 transacciones** con estacionalidad programada (Black Friday y Navidad).
+2.  **Modelado de Datos (SQL):** Diseño de un esquema estrella (*Star Schema*) con integridad referencial (PK y FK).
+3.  **Análisis de Negocio:** Resolución de preguntas críticas de stakeholders mediante consultas complejas (Subconsultas, Joins, CTEs y Funciones de Agregación).
 
-### Lógica de Negocio:
-- Estacionalidad: Programé picos de ventas en Noviembre (Black Friday) y Diciembre (Navidad).
-- Geografía: Localización enfocada en 7 países de LATAM.
-- Recurrencia: Lógica de asignación aleatoria ponderada para simular clientes leales.
+## 📊 Modelo de Datos (Esquema Estrella)
+El modelo se compone de las siguientes entidades:
+- `fact_ventas`: Tabla de hechos con métricas de transacciones y métodos de pago.
+- `dim_clientes`: Atributos demográficos y fechas de registro de usuarios en 7 países de LATAM.
+- `dim_productos`: Catálogo técnico con costos, precios y categorías.
 
+## 🛠️ Data Integrity & Cleaning (Hallazgos Críticos)
+Como parte del rol de Analista, se realizaron auditorías de calidad sobre los datos generados, detectando y documentando:
+- **Anacronismos de fecha:** Se identificaron clientes con compras previas a su registro. Se aplicaron filtros de saneamiento en SQL para asegurar la validez de los KPIs de conversión.
+- **Análisis de Discrepancias:** Validación cruzada entre precio de lista y precio de venta para auditar la existencia de descuentos aplicados.
 
-## Lista de Preguntas del Stakeholder (Roadmap del Proyecto)
-1. Crecimiento Histórico: ¿Cuál ha sido la evolución de las ventas mensuales desde 2020? ¿Existen patrones de estacionalidad claros?
-2. Rendimiento Geográfico: ¿Cuál es el país de Latinoamérica que más ingresos aporta y cuál tiene el ticket promedio (AOV) más alto?
-3. Rentabilidad por Producto: ¿Qué categorías de productos generan el mayor margen de beneficio neto y cuáles tienen costos demasiado elevados en relación con su precio de venta?
-4. Fidelización y Recurrencia: ¿Qué porcentaje de nuestros clientes ha realizado más de una compra? Queremos identificar a nuestros "Heavy Users".
-5. Análisis de Descuentos: ¿Cómo impactan los descuentos en el volumen de ventas? ¿Estamos sacrificando demasiado margen por vender más unidades?
-6. Métodos de Pago: ¿Existe alguna preferencia regional por ciertos métodos de pago? (Ej: ¿Se usa más tarjeta en Chile que en México?).
-7. Eficiencia de Registro: ¿Cuál es el tiempo promedio que transcurre desde que un cliente se registra en la plataforma hasta que realiza su primera transacción?
-](https://img.shields.io/badge/SQL-MySQL-blue)
+## 📈 Roadmap de Análisis (KPIs del Stakeholder)
+El análisis responde a 7 pilares estratégicos:
+1.  **Crecimiento Histórico:** Evolución mensual y patrones de estacionalidad.
+2.  **Rendimiento Geográfico:** Identificación de mercados líderes e ingresos por país.
+3.  **Rentabilidad:** Cálculo de beneficio neto y márgenes por categoría de producto.
+4.  **Fidelización:** Identificación de *Heavy Users* y tasa de recurrencia.
+5.  **Análisis de Descuentos:** Impacto de promociones en el margen operativo.
+6.  **Métodos de Pago:** Preferencias regionales (Tarjeta vs. Transferencia).
+7.  **Eficiencia de Conversión:** Tiempo promedio (*Lead-to-First-Purchase*).
+
+## 📂 Estructura del Repositorio
+- `/scripts`: Archivos de Python para la generación de la base de datos.
+- `/sql`: Queries documentadas con la resolución de las preguntas de negocio.
+- `/data`: Datasets exportados en formato .csv para replicabilidad.
+- `/dashboard`: (Próximamente) Archivo .pbix con la visualización interactiva.
+
+---
+**Desarrollado por [Tu Nombre]** *Professional in Financial Operations & Data Analysis*

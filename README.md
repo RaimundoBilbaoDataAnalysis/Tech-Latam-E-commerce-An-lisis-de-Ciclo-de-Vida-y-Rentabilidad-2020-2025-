@@ -1,19 +1,15 @@
 # 🚀 Tech-Latam E-commerce: Análisis de Ciclo de Vida y Rentabilidad (2020-2025)
 
-![SQL](https://img.shields.io/badge/SQL-MySQL-blue)
-![Python](https://img.shields.io/badge/Python-3.x-green)
-![PowerBI](https://img.shields.io/badge/Visualización-Power_BI-yellow)
-![Status](https://img.shields.io/badge/Status-In--Progress-orange)
-
 ## 📌 Descripción del Proyecto
-Este proyecto simula un ecosistema de datos completo para una empresa tecnológica de e-commerce en Latinoamérica. A diferencia de los proyectos que usan datasets estáticos, aquí se construyó una infraestructura desde cero: desde la **generación sintética de datos** hasta la **resolución de KPIs de negocio mediante SQL avanzado**.
+Este proyecto simula un ecosistema de datos completo para una empresa tecnológica de e-commerce en Latinoamérica. 
+A diferencia de los proyectos que usan datasets estáticos, aquí se construyó una infraestructura desde cero: desde la **generación sintética de datos** hasta la **resolución de KPIs de negocio mediante SQL**.
 
 ## 🏗️ Arquitectura y Stack Técnico
 Para demostrar un control total sobre la lógica de negocio, el flujo de trabajo se dividió en:
 
 1.  **Generación de Datos (Python):** Uso de `Pandas` y `Faker` para crear un modelo relacional de **3,603 transacciones** con estacionalidad programada (Black Friday y Navidad).
 2.  **Modelado de Datos (SQL):** Diseño de un esquema estrella (*Star Schema*) con integridad referencial (PK y FK).
-3.  **Análisis de Negocio:** Resolución de preguntas críticas de stakeholders mediante consultas complejas (Subconsultas, Joins, CTEs y Funciones de Agregación).
+3.  **Análisis de Negocio:** Resolución de preguntas críticas de stakeholders mediante consultas en SQL. (Subconsultas, Joins, etc.).
 
 ## 📊 Modelo de Datos (Esquema Estrella)
 El modelo se compone de las siguientes entidades:
@@ -36,11 +32,5 @@ El análisis responde a 7 pilares estratégicos:
 6.  **Métodos de Pago:** Preferencias regionales (Tarjeta vs. Transferencia).
 7.  **Eficiencia de Conversión:** Tiempo promedio (*Lead-to-First-Purchase*).
 
-## 📂 Estructura del Repositorio
-- `/scripts`: Archivos de Python para la generación de la base de datos.
-- `/sql`: Queries documentadas con la resolución de las preguntas de negocio.
-- `/data`: Datasets exportados en formato .csv para replicabilidad.
-- `/dashboard`: (Próximamente) Archivo .pbix con la visualización interactiva.
-
 ---
-**Desarrollado por [Tu Nombre]** *Professional in Financial Operations & Data Analysis*
+**Desarrollado por Raimundo Bilbao**
